@@ -4,6 +4,7 @@ import numpy as np
 from scipy.fftpack import dct, idct
 
 
+
 def my_dct(x):
     assert x.ndim == 1
     size = x.shape[0]
