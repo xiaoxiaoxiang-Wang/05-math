@@ -46,6 +46,7 @@ def my_idct2(x):
 
 if __name__ == '__main__':
     x = np.array([1, 2, 3, 5, 7])
+    x = np.random.normal(loc=0, scale=1, size=64)
     fft1 = fft(x)
     ifft1 = ifft(fft1)
     print("fft1", fft1)
